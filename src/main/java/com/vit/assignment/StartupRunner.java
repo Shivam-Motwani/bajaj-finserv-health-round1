@@ -25,7 +25,7 @@ public class StartupRunner implements ApplicationRunner {
                 .bodyValue(Map.of(
                         "name", "Shivam Motwani",
                         "regNo", "22bce2528",
-                        "email", "shivam.motwani2022@vitstudent.ac.in"
+                        "email", "theoryofnumbers123@gmail.com"
                 ))
                 .retrieve()
                 .bodyToMono(new ParameterizedTypeReference<Map<String, Object>>() {})
